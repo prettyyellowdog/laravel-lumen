@@ -9,6 +9,16 @@ Laravel Lumen is a stunningly fast PHP micro-framework for building web applicat
 
 > **Note:** In the years since releasing Lumen, PHP has made a variety of wonderful performance improvements. For this reason, along with the availability of [Laravel Octane](https://laravel.com/docs/octane), we no longer recommend that you begin new projects with Lumen. Instead, we recommend always beginning new projects with [Laravel](https://laravel.com).
 
+# Installing Lumen
+
+Lumen utilizes Composer to manage its dependencies. So, before using Lumen, make sure you have Composer installed on your machine.
+
+Install Lumen by issuing the Composer create-project command in your terminal:
+
+`composer create-project --prefer-dist laravel/lumen blog --repository-url=https://github.com/prettyyellowdog/laravel-lumen.git`
+
+Note that the above command will use this forked respository and not the archived original.
+
 ## Official Documentation
 
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).

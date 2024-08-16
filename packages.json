@@ -1,0 +1,12 @@
+{
+    "package": {
+      "name": "laravel/lumen",
+      "version": "11.0",
+      "source": {
+        "url": "https://github.com/prettyyellowdog/laravel-lumen.git",
+        "type": "git",
+        "reference": "v11.0"
+      }
+    }
+  }
+  
